@@ -8,6 +8,7 @@ public class Library {
 	private int signupDays;
 	private List<Books> bookList;
 	private int scanningNumber;
+	public int nrOfBooks;
 	
 	public Library() {
 		
@@ -19,6 +20,13 @@ public class Library {
 
 	public void setId(int id) {
 		this.id = id;
+	}
+	
+	public int getNrOfBooks() {
+		return nrOfBooks;
+	}
+	public void setNrOfBooks(int nrOfBooks) {
+		this.nrOfBooks = nrOfBooks;
 	}
 
 	public int getSignupDays() {
